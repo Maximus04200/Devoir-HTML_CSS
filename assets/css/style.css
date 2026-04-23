@@ -1,0 +1,55 @@
+body {
+    display: flexbox;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.photo {
+    gap: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    border: 5px solid blue;
+}
+h1 {
+    padding-top: 50px;
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+header {
+    
+    color: #ffffff;
+    background-color: #17abb3;
+}
+
+footer {
+     color: #ffffff;
+    background-color: #17abb3;
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer a {
+    padding: 10px;
+    
+}
+
+.box {
+    border: 15px solid blue;
+}
+img {
+    width: 30px;
+}
