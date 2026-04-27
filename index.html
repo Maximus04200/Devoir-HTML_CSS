@@ -6,117 +6,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <meta name="description" content="Décription et explication de mon CV pour le poste de dévellopeur web">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;400italic&display=swap" rel="stylesheet">
+    <meta name="description" content="Décription et explication de mon CV pour le poste de développeur web">
 </head>
 
 <body>
     <header>
-        <h1>Di Nota Martin</h1>
-        <h2>Dévellopeur Web et Web Mobile</h2>
-        <img class="photo" src="./assets/img/Photo_de_profil.jpg" alt="Photo-de-Profil">
+        <a href="./assets/img/Photo_de_profil.jpg" target="_blank">
+            <img class="photo" src="./assets/img/Photo_de_profil.jpg" alt="Photo-de-Profil">
+        </a>
+        <div class="header-text">
+            <h1>Di Nota Martin</h1>
+            <h2>Développeur Web et Web Mobile</h2>
+        </div>
         <nav>
-            <a href="mailto:martin.dinota@outlook.fr"><img src="./assets/img/icones/enveloppe-de-courrier-electronique.png" alt="enveloppe"></a> Mail
-            <a href="https://www.google.com/maps/place/71+Bois+Domenge,+04200+Mison/@44.2541945,5.8572708,17z/data=!3m1!4b1!4m6!3m5!1s0x12cb0783d0badf25:0xa5eb5347a1ece01!8m2!3d44.2541907!4d5.8598511!16s%2Fg%2F11txh_dxbc?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D"><img src="./assets/img/icones/maison-silhouette-noire-sans-porte.png" alt="maison"></a> Adresse
-            <a href="tel:+330615442824"><img src="./assets/img/icones/mobile.png" alt="telephone"></a> Téléphone
-            <img src="./assets/img/icones/voiture-suv.png" alt="voiture"> Permis B
+            <div class="box">
+                <a href="mailto:martin.dinota@outlook.fr">
+                    <img src="./assets/img/icones/enveloppe-de-courrier-electronique.png" alt="enveloppe">
+                </a>
+                Mail
+            </div>
+            <div class="box">
+                <a href="https://www.google.com/maps/place/71+Bois+Domenge,+04200+Mison">
+                    <img src="./assets/img/icones/maison-silhouette-noire-sans-porte.png" alt="maison">
+                </a>
+                Adresse
+            </div>
+            <div class="box">
+                <a href="tel:+330615442824">
+                    <img src="./assets/img/icones/mobile.png" alt="telephone">
+                </a>
+                Téléphone
+            </div>
+            <div class="box">
+                <img src="./assets/img/icones/voiture-suv.png" alt="voiture">
+                Permis B
+            </div>
         </nav>
     </header>
     <main>
-        <h3>Profil</h3>
-            <p>Je m'appelle Martin, j'ai 33 ans et je suis père de deux enfants. Mon parcours professionnel, bien que varié,
-            témoigne d'une constante : ma capacité <strong>d'adaptation et ma détermination</strong> face aux obstacles.
-            J'ai débuté ma carrière dans la restauration en obtenant mon CAP serveur, avant de tenter de m'engager dans
-            l'armée — une vocation que des raisons médicales ont malheureusement contrariée. Loin de me décourager, j'ai
-            rebondi rapidement en rejoignant McDonald's, où j'ai évolué pendant 7 ans jusqu'au poste de manager,
-            développant ainsi de solides compétences en gestion d'équipe et en organisation.
-            Par la suite, j'ai occupé différents postes dans la grande distribution — cariste et caissier chez Brico
-            Dépôt, puis caissier et employé de rayon chez Super U — avant de me reconvertir dans le bâtiment en tant que
-            plaquiste-peintre pendant 5 ans dans le Jura.
-            Aujourd'hui, c'est une passion de longue date qui guide ma nouvelle orientation : j'ai toujours été fasciné
-            par le fonctionnement des logiciels et des applications. C'est pourquoi j'ai pris la décision de me former
-            en tant que développeur web Full Stack, convaincu que cette voie correspond pleinement à mes aspirations et
-            à mes capacités.
-        </p>
-        <h3>Formations</h3>
-            <h4>Diplôme CAP <time datetime="2018">2016/2018</time></h4>
-                <p><em>Ecole d'hostellerie restauration de Saint-Etienne</em></p>
+        <aside class="sidebar">
+            <section>
+                <h3>Compétences</h3>
+                <div class="competence-item">
+                    <span>HTML</span>
+                    <span class="stars">★★★★<span class="empty">★</span></span>
+                </div>
+                <div class="competence-item">
+                    <span>CSS</span>
+                    <span class="stars">★★★★<span class="empty">★</span></span>
+                </div>
+                <div class="competence-item">
+                    <span>Javascript</span>
+                    <span class="stars">★★<span class="empty">★★★</span></span>
+                </div>
+                <div class="competence-item">
+                    <span>PHP</span>
+                    <span class="stars">★<span class="empty">★★★★</span></span>
+                </div>
+            </section>
 
-            <h4>Formation de premier secours <time datetime="2022">2022/2023</time></h4>
+            <section>
+                <h3>Langues</h3>
+                <div class="langue-item">
+                    <strong>Français</strong>
+                    <span>Langue maternelle</span>
+                </div>
+                <div class="langue-item">
+                    <strong>Anglais</strong>
+                    <span>Scolaire</span>
+                </div>
+                <div class="langue-item">
+                    <strong>Italien</strong>
+                    <span>Scolaire</span>
+                </div>
+            </section>
 
-            <h4>Formation de sécutité en élèctricité<time datetime="2023">2023/2024</time></p>
+            <section>
+                <h3>Qualités</h3>
+                <ul>
+                    <li>Esprit d'équipe</li>
+                    <li>Autonomie</li>
+                    <li>Organisation</li>
+                    <li>Adaptation</li>
+                    <li>Créativité</li>
+                </ul>
+            </section>
 
-        <h3>Stages</h3>
-            <h4>Poseur et commercial dans le domaine des fenêtres <time datetime="2020">2020/2021</time></h4>
-                <p><em>La Boutique du Menuisiers</em></p>
+            <section>
+                <h3>Centres d'intérêt</h3>
+                <ul>
+                    <li>Informatique</li>
+                    <li>Évolution des jeux vidéo</li>
+                    <li>I-tech</li>
+                </ul>
+            </section>
 
-            <h4>Monteur démonteur d'échaffaudage <time datetime="2024">2024/2025</time></h4>
-                <p><em>1112 Couleurs et nuances IPP</em></p>
+        </aside>
 
-        <h3>Expérience Professionnelles</h3>
-            <h4>Plaquiste / Peintre <time datetime="2019">2019/2025</time></h4>
-                <p><em>Pose de placo, bandes, peinture intérieure, préparation des supports, interventions autonomes.</em></p>
+        <div class="content">
 
-            <h4>Employé polyvalent Super U <time datetime="2019">2018/2019</time></h4>
-                <p><em>Caissier puis mise en rayon, gestion des stocks, facing, relation client.</em></p>
+            <section>
+                <h3>Profil</h3>
+                <p>Je m'appelle Martin, j'ai 33 ans et je suis père de deux enfants. Mon parcours professionnel, bien
+                    que varié, témoigne d'une constante : ma capacité <strong>d'adaptation et ma détermination</strong>
+                    face aux obstacles. J'ai débuté ma carrière dans la restauration en obtenant mon CAP serveur, avant
+                    de tenter de m'engager dans l'armée — une vocation que des raisons médicales ont malheureusement
+                    contrariée. Loin de me décourager, j'ai rebondi rapidement en rejoignant McDonald's, où j'ai évolué
+                    pendant 7 ans jusqu'au poste de manager, développant ainsi de solides compétences en gestion
+                    d'équipe et en organisation. Aujourd'hui, c'est une passion de longue date qui guide ma nouvelle
+                    orientation : j'ai toujours été fasciné par le fonctionnement des logiciels et des applications.
+                    C'est pourquoi j'ai pris la décision de me former en tant que <strong>développeur web Full
+                        Stack</strong>.</p>
+            </section>
 
-            <h4>Cariste interne Brico Dépôt  <time datetime="2019">2016/2017</time></h4>
-                <p><em>Manutention, rangement dépôt, gestion des palettes, réception livraisons.</em></p>
+            <section>
+                <h3>Formations</h3>
+                <div class="entry">
+                    <h4>Diplôme CAP — École d'hôtellerie de Saint-Étienne</h4>
+                    <time>2016/2018</time>
+                </div>
+                <div class="entry">
+                    <h4>Formation de premier secours</h4>
+                    <time>2022/2023</time>
+                </div>
+                <div class="entry">
+                    <h4>Formation de sécurité en électricité</h4>
+                    <time>2023/2024</time>
+                </div>
+            </section>
 
-            <h4>Caissier Brico Dépôt <time datetime="2019">2016/2017</time></h4>
-                <p><em>Encaissement, accueil client, suivi commandes.</em></p>
+            <section>
+                <h3>Stages</h3>
+                <div class="entry">
+                    <h4>Poseur et commercial — La Boutique du Menuisier</h4>
+                    <time>2020/2021</time>
+                </div>
+                <div class="entry">
+                    <h4>Monteur/démonteur d'échafaudage — Couleurs et Nuances IPP</h4>
+                    <time>2024/2025</time>
+                </div>
+            </section>
 
-            <h4>Équipier polyvalent McDonalds <time datetime="2019">2015/2016</time></h4>
-                <p><em>Équipier polyvalent McDonald’s.</em></p>
+            <section>
+                <h3>Expériences Professionnelles</h3>
 
-            <h4>Mise en rayon Monoprix <time datetime="2019">2013/2015</time></h4>
-                <p><em>Facing, mise en rayon, inventaires, contrôle produits.</em></p>
+                <div class="entry">
+                    <h4>Plaquiste / Peintre</h4>
+                    <time>2019/2025</time>
+                </div>
+                <p class="entry-sub">Pose de placo, bandes, peinture intérieure, préparation des supports, interventions
+                    autonomes.</p>
 
-            <h4>Équipier polyvalent McDonald’s<time datetime="2019">2008/2010</time></h4>
-                <p><em>Prise de commandes, préparation, respect des procédures.</em></p>
+                <div class="entry">
+                    <h4>Employé polyvalent — Super U</h4>
+                    <time>2018/2019</time>
+                </div>
+                <p class="entry-sub">Caissier puis mise en rayon, gestion des stocks, facing, relation client.</p>
 
-            <h4>Apprenti serveur Le Poisson d’Argent <time datetime="2019">2007/2008</time></h4>
-                <p><em>Service, mise en place.</em></p>
+                <div class="entry">
+                    <h4>Cariste interne — Brico Dépôt</h4>
+                    <time>2016/2017</time>
+                </div>
+                <p class="entry-sub">Manutention, rangement dépôt, gestion des palettes, réception livraisons.</p>
 
-            <h4>Apprenti serveur Restaurant du Château <time datetime="2019">2006/2007</time></h4>
-                <p><em>Service, accueil, gestion salle.</em></p>
-<div class="box">
-        <h3>Compétences</h3>
-            <h4>HTML</h4>
-            <h4>CSS</h4>
-            <h4>Javascript</h4>
-            <h4>PHP</h4>
-        <h3>Langues</h3>
-        <p><strong>Francais</strong> Langues marternelle</p>
-        <p><strong>Anglais</strong> Scolaire</p>
-        <p><strong>Italien</strong> Scolaire</p>
-        
-        <h3>Qualités</h3>
-        <ul>
-            <li>Esprit d'équipe</li>
-            <li>Autonomie</li>
-            <li>Organisation</li>
-            <li>Adaptation</li>
-            <li>Créativité</li>
-        </ul>
+                <div class="entry">
+                    <h4>Caissier — Brico Dépôt</h4>
+                    <time>2016/2017</time>
+                </div>
+                <p class="entry-sub">Encaissement, accueil client, suivi commandes.</p>
 
-        <h3>Centres d'intérêts</h3>
-        <ul>
-            <li>Informatique</li>
-            <li>Evolution des jeux vidéo</li>
-            <li>I-tech</li>
-        </ul>
+                <div class="entry">
+                    <h4>Manager / Équipier polyvalent — McDonald's</h4>
+                    <time>2008/2015</time>
+                </div>
+                <p class="entry-sub">Évolution jusqu'au poste de manager, gestion d'équipe, formation des nouveaux
+                    employés.</p>
+
+                <div class="entry">
+                    <h4>Mise en rayon — Monoprix</h4>
+                    <time>2013/2015</time>
+                </div>
+                <p class="entry-sub">Facing, mise en rayon, inventaires, contrôle produits.</p>
+
+                <div class="entry">
+                    <h4>Apprenti serveur — Le Poisson d'Argent</h4>
+                    <time>2007/2008</time>
+                </div>
+                <p class="entry-sub">Service, mise en place.</p>
+
+                <div class="entry">
+                    <h4>Apprenti serveur — Restaurant du Château</h4>
+                    <time>2006/2007</time>
+                </div>
+                <p class="entry-sub">Service, accueil, gestion salle.</p>
+
+            </section>
+
         </div>
+
     </main>
+
     <footer>
-        
-        <a href="https://www.instagram.com/?hl=fr"><img src="./assets/img/icones/instagram.png" alt="insta"></a>
-
-        <a href="https://www.linkedin.com/in/martin-nota-2a8a98192/"><img src="./assets/img/icones/linkedin.png" alt="lknd"></a>
-
-        <a href="https://github.com/Maximus04200/Devoir-HTML_CSS/tree/main"><img src="./assets/img/icones/github (1).png" alt="github"></a>
-
-        <p><em>Mise a jour le : <time datetime="2026/04/23">23/04/2026</time></em></p>
-        
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/?hl=fr">
+                <img src="./assets/img/icones/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/martin-nota-2a8a98192/">
+                <img src="./assets/img/icones/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://github.com/Maximus04200/Devoir-HTML_CSS/tree/main">
+                <img src="./assets/img/icones/github (1).png" alt="github">
+            </a>
+        </div>
+        <p><em>Mis à jour le : <time datetime="2026-04-23">23/04/2026</time></em></p>
     </footer>
 
 </body>
